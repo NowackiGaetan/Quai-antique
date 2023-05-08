@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+$mygreen: #3d4b3e;
+$mygrey: #e9e9e9;
+
+
+.nav-container{
+  position: fixed;
+  height: 100px;
+  background: $mygreen;
+  a, .link{
+    padding-top: 30px;
+    padding-right: 15px;
+    color:$mygrey;
+    text-decoration: none;
+    &:hover{
+      color: white;
+    }
+  }
+}
+
+.burger-toggle{
+  padding-top: 40px;
+}
+
+
+

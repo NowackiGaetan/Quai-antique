@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-container {
+  position: fixed;
+  height: 100px;
+  background: #3d4b3e;
+}
+.nav-container a, .nav-container .link {
+  padding-top: 30px;
+  padding-right: 15px;
+  color: #e9e9e9;
+  text-decoration: none;
+}
+.nav-container a:hover, .nav-container .link:hover {
+  color: white;
+}
+
+.burger-toggle {
+  padding-top: 40px;
+}/*# sourceMappingURL=base.css.map */
